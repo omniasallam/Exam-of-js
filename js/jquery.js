@@ -1,12 +1,12 @@
 
-/*$(document).ready(function(){
+$(document).ready(function(){
     $(".spinner").fadeOut(500, function(){
         $("#loadind").fadeOut(1000);
         $("#loadind").remove(1000)
 
     })
 })
-*/
+
 
 let sideBarinnerWidth=$(".sideBar-inner").innerWidth();
 $("#sideBar").animate({left:-sideBarinnerWidth}, 1000);
